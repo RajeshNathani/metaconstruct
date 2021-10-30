@@ -7,7 +7,7 @@ const Featured = () => {
     return (
         <div>
             <div className={Styles.featured}>
-                <h1 data-aos="fade-up">Featured Work</h1>
+                <h1 data-aos="fade-up">Services</h1>
                 <p className="text-secondary">We Take Pride in Our Work</p> <br />
                 <div className="row">
                     <div className="col-sm">
@@ -23,7 +23,7 @@ const Featured = () => {
                             <Image className={Styles.cimg} src={off} alt="Office" width={320} height={250}></Image>
                             <div className={Styles.middle}>
                                 <div className={Styles.overText}>Office</div>
-                            </div>                        
+                            </div>
                         </div>
                     </div>
                     <div className="col-sm">
@@ -31,12 +31,12 @@ const Featured = () => {
                             <Image className={Styles.cimg} src={off} alt="Office" width={320} height={250}></Image>
                             <div className={Styles.middle}>
                                 <div className={Styles.overText}>Office</div>
-                            </div>                        
+                            </div>
                         </div>
                     </div>
                 </div>
                 <br />
-                <Link href='#'><a className='btn btn-warning'> See All Projects</a></Link>
+                <Link href='#'><a className='btn btn-warning'> See All Services</a></Link>
             </div>
         </div>
     );
